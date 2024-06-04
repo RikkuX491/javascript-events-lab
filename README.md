@@ -12,7 +12,7 @@ It is recommended that you use the Visual Studio Code (VSCode) IDE for this lab.
 
 Useful considerations and terminology:
 
-**Event**: Something a user does on a web page.
+**Event**: Something a user does on a web page or something that happens on a web page.
 
 **Event handler**: A callback function that executes code in response to an event.
 
