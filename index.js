@@ -58,3 +58,5 @@ function updateBurgerMenu(event){
 function addHealthyBurgerToMenu(burger){
     // Write your solution code here!
 }
+
+// Write your solution code here!
