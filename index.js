@@ -34,13 +34,27 @@ const burgers = [
 burgers.forEach(addBurgerImageToMenu);
 
 function addBurgerImageToMenu(burger){
+    const burgerImage = document.createElement('img');
+    burgerImage.src = burger.image;
+    const burgerMenu = document.getElementById('burger-menu');
+    burgerMenu.appendChild(burgerImage);
+
     // Write your solution code here!
 }
 
 function displayBurgerDetails(burger){
-    // Write your solution code here!
+    const detailImageElement = document.querySelector('.detail-image');
+    detailImageElement.src = burger.image;
+    const nameElement = document.querySelector('.name');
+    nameElement.textContent = burger.name;
+    const descriptionDisplayElement = document.getElementById('description-display');
+    descriptionDisplayElement.textContent = burger.description;
 }
 
 function updateBurgerMenu(event){
+    // Write your solution code here!
+}
+
+function addHealthyBurgerToMenu(burger){
     // Write your solution code here!
 }
