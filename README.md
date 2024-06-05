@@ -18,6 +18,8 @@ Useful considerations and terminology:
 
 **click event**: An event that occurs when a user clicks on an element on a web page.
 
+**change event**: An event that occurs when a user selects or changes a value for an element on a web page that contains a value attribute.
+
 Here are some other useful resources:
 
 - MDN
@@ -25,6 +27,8 @@ Here are some other useful resources:
   - [Event reference (Web Events)](https://developer.mozilla.org/en-US/docs/Web/Events)
   - [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
     - [Element: click event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
+  - [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)
+    - [HTMLElement: change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
 
 ## Instructions
 
