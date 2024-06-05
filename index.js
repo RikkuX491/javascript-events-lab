@@ -31,15 +31,13 @@ const burgers = [
     }
 ];
 
-burgers.forEach(addBurgerImageToMenu);
-
 function addBurgerImageToMenu(burger){
     const burgerImage = document.createElement('img');
     burgerImage.src = burger.image;
     const burgerMenu = document.getElementById('burger-menu');
     burgerMenu.appendChild(burgerImage);
 
-    // Write your solution code here!
+    // Write your solution code for Task # 1 here!
 }
 
 function displayBurgerDetails(burger){
@@ -52,11 +50,13 @@ function displayBurgerDetails(burger){
 }
 
 function updateBurgerMenu(event){
-    // Write your solution code here!
+    // Write your solution code for Task # 3 here!
 }
 
 function addHealthyBurgerToMenu(burger){
-    // Write your solution code here!
+    // Write your solution code for Task # 4 here!
 }
 
-// Write your solution code here!
+burgers.forEach(addBurgerImageToMenu);
+
+// Write your solution code for Task # 2 here!
