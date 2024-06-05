@@ -40,3 +40,7 @@ function addBurgerImageToMenu(burger){
 function displayBurgerDetails(burger){
     // Write your solution code here!
 }
+
+function updateBurgerMenu(event){
+    // Write your solution code here!
+}
