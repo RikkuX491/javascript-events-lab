@@ -53,6 +53,7 @@ These are your tasks:
   - The `src` attribute for the `<img>` element with the class of `detail-image` is set to the value of the `image` key of the `object` referenced by the `burger` variable.
   - The `textContent` attribute for the `<h2>` element with the class of `name` is set to the value of the `name` key of the `object` referenced by the `burger` variable.
   - The `textContent` attribute for the `<p>` element with the id of `description-display` is set to the value of the `description` key of the `object` referenced by the `burger` variable.
+- Add an event listener to the `<select>` element with the id of `burger-select` that will allow the `<select>` element to listen for a `change` event and will call the `updateBurgerMenu()` function in response to the `change` event.
 
 ## Submission and Grading Criteria
 
