@@ -29,9 +29,9 @@ const burgers = [
         description: "If you love ramen and burgers, what are you waiting for? Order our exclusive ramen burger now!",
         healthy: false
     }
-]
+];
 
-burgers.forEach(addBurgerImageToMenu)
+burgers.forEach(addBurgerImageToMenu);
 
 function addBurgerImageToMenu(burger){
     // Write your solution code here!
