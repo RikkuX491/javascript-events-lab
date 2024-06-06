@@ -8,10 +8,4 @@ const path = require('path');
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8');
 
-describe('index.js', function() {
-  describe('test', function() {
-    it('is true', function() {
-      expect(true);
-    });
-  });
-});
+describe('index.js', () => {});
